@@ -8,6 +8,9 @@
 div {
     /* width: 55%;
     height: 4%; */
+    background-color: #f3e8de;
+    padding: 15px;
+    border: solid 3px #A9937E;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,56 +27,58 @@ div {
         'zero zero comma equals'
     ;
 }
- button{
+
+button {
     border: solid 1px black;
-    border-radius: 3px;
- }
+    border-radius: 5px;
+    background-color: #E1C9B3;
+    margin: 7px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
 
 .delete {
-    background-color: blue;
     grid-area: delete;
 }
 
 .percent {
-    background-color: rgb(106, 31, 31);
     grid-area: percent;
 }
 
 .plusMinus {
-    background-color: yellow;
     grid-area: plusMinus;
 
 }
 
 .divide {
-    background-color: crimson;
     grid-area: divide;
 
 }
 
 input {
-    background-color: rgb(179, 163, 143);
     grid-area: input;
+    background-color: #FFEBCD;
+    border: solid 1px black;
+    border-radius: 4px;
+    margin: 7px;
+    padding: 18px;
 
 }
 
 .seven {
-    background-color: rgb(106, 31, 31);
     grid-area: seven;
 }
 
 .eight {
-    background-color: rgb(87, 64, 64);
     grid-area: eight;
 }
 
 .nine {
-    background-color: rgb(31, 106, 106);
     grid-area: nine;
 }
 
 .multiply {
-    background-color: rgb(47, 31, 106);
     grid-area: multiply;
 }
 
@@ -81,44 +86,36 @@ input {
 
 .four {
     grid-area: four;
-    background-color: bisque;
 }
 
 .five {
     grid-area: five;
-    background-color: bisque;
 }
 
 .six {
     grid-area: six;
-    background-color: bisque;
 }
 
 .minus {
     grid-area: minus;
-    background-color: bisque;
 }
 
 
 
 .one {
     grid-area: one;
-    background-color: bisque;
 }
 
 .two {
     grid-area: two;
-    background-color: bisque;
 }
 
 .three {
     grid-area: three;
-    background-color: bisque;
 }
 
 .plus {
     grid-area: plus;
-    background-color: bisque;
 }
 
 
@@ -126,15 +123,12 @@ input {
 
 .zero {
     grid-area: zero;
-    background-color: bisque;
 }
 
 .comma {
     grid-area: comma;
-    background-color: bisque;
 }
 
 .equals {
     grid-area: equals;
-    background-color: bisque;
 }
