@@ -8,9 +8,10 @@
 div {
     /* width: 55%;
     height: 4%; */
-    background-color: #f3e8de;
-    padding: 15px;
-    border: solid 3px #A9937E;
+    background-color: #d7dfe8;
+    padding: 23px;
+    border: solid 2px #6d8196;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,10 +30,10 @@ div {
 }
 
 button {
-    border: solid 1px black;
+    border: solid 1px #3B4856;
     border-radius: 5px;
-    background-color: #E1C9B3;
-    margin: 7px;
+    background-color: #7197BD;
+    margin: 5px;
     text-align: center;
     font-weight: 700;
     font-size: 15px;
@@ -58,10 +59,10 @@ button {
 
 input {
     grid-area: input;
-    background-color: #FFEBCD;
-    border: solid 1px black;
+    background-color: #b0c4d8;
+    border: solid 1px #3B4856;
     border-radius: 4px;
-    margin: 7px;
+    margin-bottom: 55px;
     padding: 18px;
 
 }

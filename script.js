@@ -4,7 +4,6 @@ console.log(display.value)
 
 buttons.map(button => {
     button.addEventListener('click', (e) => {
-        console.log(e.target)
         switch (e.target.innerText) {
             case 'C':
                 display.value = '';
