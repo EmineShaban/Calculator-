@@ -20,7 +20,7 @@ div {
     grid-template-rows: repeat(6, 50px);
     grid-template-areas:
         'input input input input'
-        'delete plusMinus percent divide'
+        'delete bracket1 bracket2 divide'
         'seven eight nine multiply'
         'four five six minus'
         'one two three plus'
