@@ -1,0 +1,140 @@
+/* section {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    border: solid 2px black;
+} */
+
+div {
+    /* width: 55%;
+    height: 4%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 50px);
+    grid-template-areas:
+        'input input input input'
+        'delete plusMinus percent divide'
+        'seven eight nine multiply'
+        'four five six minus'
+        'one two three plus'
+        'zero zero comma equals'
+    ;
+}
+ button{
+    border: solid 1px black;
+    border-radius: 3px;
+ }
+
+.delete {
+    background-color: blue;
+    grid-area: delete;
+}
+
+.percent {
+    background-color: rgb(106, 31, 31);
+    grid-area: percent;
+}
+
+.plusMinus {
+    background-color: yellow;
+    grid-area: plusMinus;
+
+}
+
+.divide {
+    background-color: crimson;
+    grid-area: divide;
+
+}
+
+input {
+    background-color: rgb(179, 163, 143);
+    grid-area: input;
+
+}
+
+.seven {
+    background-color: rgb(106, 31, 31);
+    grid-area: seven;
+}
+
+.eight {
+    background-color: rgb(87, 64, 64);
+    grid-area: eight;
+}
+
+.nine {
+    background-color: rgb(31, 106, 106);
+    grid-area: nine;
+}
+
+.multiply {
+    background-color: rgb(47, 31, 106);
+    grid-area: multiply;
+}
+
+
+
+.four {
+    grid-area: four;
+    background-color: bisque;
+}
+
+.five {
+    grid-area: five;
+    background-color: bisque;
+}
+
+.six {
+    grid-area: six;
+    background-color: bisque;
+}
+
+.minus {
+    grid-area: minus;
+    background-color: bisque;
+}
+
+
+
+.one {
+    grid-area: one;
+    background-color: bisque;
+}
+
+.two {
+    grid-area: two;
+    background-color: bisque;
+}
+
+.three {
+    grid-area: three;
+    background-color: bisque;
+}
+
+.plus {
+    grid-area: plus;
+    background-color: bisque;
+}
+
+
+
+
+.zero {
+    grid-area: zero;
+    background-color: bisque;
+}
+
+.comma {
+    grid-area: comma;
+    background-color: bisque;
+}
+
+.equals {
+    grid-area: equals;
+    background-color: bisque;
+}
